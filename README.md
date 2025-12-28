@@ -15,11 +15,9 @@ Projeto para análise e visualização de dados de redações (UFSC). Contém um
 
 Este projeto é **expositivo**: analisa padrões observados em um corpus de redações da UFSC com foco em **gêneros textuais** e características recorrentes — ele não realiza correções personalizadas nem aceita upload de redações de usuários.
 
-O que a ferramenta apresenta (de forma descritiva e indicativa):
+O que a ferramenta apresenta (de forma descritiva):
 
 - **Gêneros textuais** mais frequentes por ano/edital e suas características típicas.
-- **Modelos estruturais** recorrentes (ex.: formatos de introdução, organização de argumentos, tipos de conclusão).
-- **Tendências léxicas e coesivas** — conectivos, vocabulário e expressões comumente usadas.
 - **Visualizações agregadas** que ajudam você a entender padrões e estratégias observadas no corpus.
 
 Como interpretar os resultados:
@@ -167,12 +165,3 @@ MIT — veja o arquivo `LICENSE` (se presente). Caso não exista, adicione um `L
 ## Contato
 
 Se quiser, crie uma issue ou me marque no GitHub: `@gabrielwalter`.
-
----
-
-Se quiser, eu posso:
-- adicionar um `.gitignore` recomendando arquivos a ignorar (node_modules, dist, .env etc);
-- abrir o `README.md` no editor para ajustar o texto;
-- criar badges de CI/testes se você usar um service (GitHub Actions, etc).
-
-Obrigado! 🎯
