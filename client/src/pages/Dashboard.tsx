@@ -39,7 +39,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const yearResponse = await fetch("/genres-by-year.json");
+        const yearResponse = await fetch(`${import.meta.env.BASE_URL}genres-by-year.json`);
         const yearJsonData: Record<string, YearGenreData> = await yearResponse.json();
         setYearData(yearJsonData);
 

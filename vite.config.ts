@@ -8,6 +8,7 @@ const plugins = [react(), tailwindcss()];
 
 export default defineConfig({
   plugins,
+  base: "/ufsc-redacao/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
