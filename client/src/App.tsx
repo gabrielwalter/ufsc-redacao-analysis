@@ -9,8 +9,10 @@ import Dashboard from "./pages/Dashboard";
 import About from "./pages/About";
 
 function AppRouter() {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "") || "";
+
   return (
-    <Router base="/ufsc-redacao">
+    <Router base={base}>
       <Switch>
         <Route path={"/"} component={Home} />
         <Route path={"/dashboard"} component={Dashboard} />

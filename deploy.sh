@@ -3,7 +3,7 @@
 set -e
 
 echo "🔨 Building project..."
-pnpm run build
+DEPLOY_BASE=/ufsc-redacao/ pnpm run build
 
 echo "📦 Copying files to site repository..."
 rm -rf ../site-gabrielhando/ufsc-redacao/*
