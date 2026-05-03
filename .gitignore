@@ -1,5 +1,6 @@
 # Web artifacts
 *.html
+!offline.html
 
 # Build artifacts
 dist/
